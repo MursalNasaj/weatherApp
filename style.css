@@ -1,0 +1,114 @@
+.cart {
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 550px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-left {
+    margin: 30px;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 1px;
+     
+}
+
+.update {
+    color: gray;
+    font-size: 18px;
+}
+
+.today {
+    color: red;
+}
+
+h2 {
+    color: gray;
+}
+
+.head-right {
+    margin: 55px;
+}
+
+.main-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part-1 {
+   border-right: 3px solid red;  
+   width: 180px;
+   height: 120px;
+   margin-left: 30px;
+}
+
+.part-1 .p1{
+    position: relative;
+     top:10px ;
+     
+}
+
+.part-1 .p2{
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.part-2 {
+    line-height: 2px;
+    margin:0 50px;
+    padding: 0 40px;
+    color: gray;
+    font-size: 20px;
+}
+
+.part-1 .p3{
+    position: relative;
+    top: -55px;
+    left: 190px;
+    font-size: 24px;
+    color: gray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+    line-height: 1px;
+    color: red;
+    font-size: 20px;
+
+}
+
+i {
+    margin-bottom: 15px;
+}
+
+ul li span {
+    color: gray;
+}
+
+.Sun {
+    color: yellow;
+}
+
+.Cloud {
+    color: gainsboro;
+
+}
+
+.Rain {
+    color: rgb(171, 169, 169);
+}
